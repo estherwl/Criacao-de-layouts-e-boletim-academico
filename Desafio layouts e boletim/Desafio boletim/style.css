@@ -1,0 +1,27 @@
+#tabela {
+  border-collapse: collapse;
+  width: 60%;
+}
+
+#tabela td,
+tr,
+th {
+  border: 1px solid black;
+  height: 40px;
+  text-align: center;
+  padding: 10px;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+#tabela th {
+  background-color: darkgray;
+}
+
+#tabela tr.aprovado {
+  background-color: palegreen;
+}
+
+#tabela tr.reprovado {
+  background-color: red;
+}

@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Layout 1</title>
+    <style>      
+      body, h1 {
+        margin: 0;
+        padding: 0;
+      }
+     
+      .container {
+        margin: 0 auto;
+        width: 750px;
+      }
+
+      header {
+        height: 100px;
+        background-color: violet;
+        padding-left: 15px;
+      }
+
+      .content {
+        display: flex;
+        align-items: flex-start;
+      }
+
+      nav{
+        width: 150px;
+        padding-left: 10px;
+      }
+
+      .left {
+        background-color: brown;
+      }
+
+      .right {
+        background-color: yellowgreen;
+      }
+
+      section {
+        width: 450px;
+        background-color: aquamarine;
+        text-align: center;
+      }
+    </style>
+  </head>
+
+  <body>
+    <div class="container">
+      <header>
+        <h1>Header</h1>
+      </header>
+      <div class="content">
+        <nav class="left">
+          <h2>Menu Esquerdo</h2>
+        </nav>
+        <section>
+          <h2>Conteudo</h2>
+          <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ullam quos architecto explicabo veniam est, culpa facere consectetur nulla omnis non perspiciatis illo reiciendis excepturi amet quidem porro tempore iure distinctio.</p>
+        </section>
+        <nav class="right">
+          <h2>Menu Direito</h2>
+        </nav>
+      </div>
+    </div>
+  </body>
+
+</html>
